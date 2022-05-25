@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome:</label><br>
+            <input type="text"
+                   name="none"
+                   id="nome"
+                   placeholder="Escreva seu Nome">
+<br>        
+            <label for="nascimento">Data de Nascimento:</label><br>
+            <input type="date"
+                   name="none"
+                   id="nascimento">       
+<br>
+            <label for="email">E-mail:</label><br>
+            <input type="text"
+                   name="none"
+                   id="email"
+                   placeholder="Informe seu E-mail"> 
+<BR>
+            <label for="telefone">Telefone:</label><br>
+            <input type="text"
+                   name="none"
+                   id="telefone"
+                   placeholder="Informe seu Telefone"> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Acadêmicos</legend>
+            <label for="curso">Curso</label>
+            <select id="curso">
+                <option value="10">ADS</option>
+                <option value="20">GTI</option>
+                <option value="30">TBD</option>
+                <option value="40">TSI</option>
+            </select>
+<br>
+            <label for="semestre">Semestre:</label>
+            
+            <input type="radio"
+                   name="curso"
+                   id="id_1°">
+
+            <label for="1°">1°</label>
+            
+            <input type="radio"
+                   name="curso"
+                   id="id_2°">
+
+            <label for="2°">2°</label>
+
+            <input type="radio"
+                   name="curso"
+                   id="id_3°">
+
+            <label for="3°">3°</label>
+
+            <input type="radio"
+                   name="curso"
+                   id="id_4°">
+
+            <label for="4°">4°</label>
+            
+        </fieldset>
+
+        <fieldset>
+            <label for="trabalha">Trabalha?</label>
+            <input type="checkbox"
+                   name="none"
+                   id="trabalha">
+<br>
+            <label for="local_trab">Local de Trabalho:</label>
+            <input type="text"
+                   nome="none"
+                   id="local_trab">
+<br>
+            <label for="experiencia">Descreva sua Experiência</label><br>
+            <textarea rows="5"
+                      cols="70"
+                      >
+            </textarea>
+        </fieldset>
+<br>
+        <input type="submit" value="Gravar">
+        <input type="submit" value="Limpar">
+        
+        
+    </form>
+
+<br><br>
+
+    <button>
+        <a href="index.html">Perguntas</a>
+    </button>
+
+</body>
+</html>
